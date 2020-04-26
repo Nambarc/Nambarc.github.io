@@ -1,0 +1,34 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#conten-container {
+  width: 100%;
+}
+
+.outer-vertical-padding {
+  height: 100px;
+}
+
+.inner-vertical-padding {
+  height: 20px;
+}
+
+.encoded_block_container {
+  background-color:#E3E3E3;
+  color: #292929;
+
+  width: 1000px;
+
+  margin: 0 auto;
+
+}
+
+.encoded_block {
+  
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
