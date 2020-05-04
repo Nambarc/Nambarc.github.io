@@ -28,7 +28,7 @@ horizontal_padding_element.style.height = cardHeightNum.toString() + 'px';
 var card = document.getElementById('card');
 card.style.position = 'relative';
 card.style.transition = 'transform 1s';
-card.style.backgroundColor = "green";
+card.style.backgroundColor = "#FAEBD7";
 
 //Set the status of the card to 0.
 //0 is front facing and closed.
@@ -45,7 +45,7 @@ cardLHS.style.transition = 'transform 1s';
 cardLHS.style.transformOrigin = '0 0 0';
 cardLHS.style.width = cardWidthNum.toString() + "px";
 cardLHS.style.height = cardHeightNum.toString() + "px";
-cardLHS.style.backgroundColor = "red";
+cardLHS.style.backgroundColor = "#FAEBD7";
 
 //Format the RHS of the card.
 var cardRHS = document.getElementById('cardRHS');
@@ -56,7 +56,7 @@ cardRHS.style.transition = 'transform 1s';
 cardRHS.style.transformOrigin = '0 0 0';
 cardRHS.style.width = cardWidthNum.toString() + "px";
 cardRHS.style.height = cardHeightNum.toString() + "px";
-cardRHS.style.backgroundColor = "blue";
+cardRHS.style.backgroundColor = "#FAEBD7";
 
 //Create the first outside face.
 cardLHS.innerHTML += '<div id="out1"></div>';
