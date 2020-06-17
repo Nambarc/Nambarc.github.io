@@ -1,0 +1,31 @@
+
+body {
+  /* background-color: cyan; */
+  margin: 0;
+}
+
+#vertical_padding {
+  /* background-color: pink; */
+  width: 100%;
+}
+
+#primary_container {
+  background-color: purple;
+}
+
+#horizontal_padding {
+  /* background-color: chartreuse; */
+  float: left;
+}
+
+#card {
+  float: left;
+}
+
+#cardLHS {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+#cardRHS {
+  box-shadow: 5px 10px 18px #888888;
+}
